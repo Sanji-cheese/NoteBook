@@ -1,0 +1,2 @@
+#  (): necessary para  []: optional para
+kill -s 9 (PID)  # 终止某进程
