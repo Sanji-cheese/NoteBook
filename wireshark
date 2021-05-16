@@ -1,2 +1,10 @@
-      IP协
+      IP协议
 IP包分片：由于数据链路（以太网最大传输MTU为1500字节），故IP需要分片
+      TCP协议
+TCP三次握手：SYN=1,Sequence number=x;
+            SYN=1/ACK=x+1;
+            ACK=x+1;
+TCP四次挥手：FIN=1/ACK=1；
+            ACK;
+            FIN/ACK;
+            ACK;
