@@ -3,8 +3,8 @@ IP包分片：由于数据链路（以太网最大传输MTU为1500字节），�
       TCP协议
 TCP三次握手：SYN=1,Sequence number=x;
             SYN=1/ACK=x+1;
-            ACK=x+1;
-TCP四次挥手：FIN=1/ACK=1；
-            ACK;
-            FIN/ACK;
-            ACK;
+            ACK是对方序列码+1;
+TCP四次挥手：A端：FIN=1/ACK=1；
+            B端：ACK;
+            B端：FIN/ACK;
+            A端：ACK;  双方 都有直接的序列码，而ACK针对对方序列码+1
