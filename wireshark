@@ -8,3 +8,5 @@ TCP四次挥手：A端：FIN=1/ACK=1；
             B端：ACK;
             B端：FIN/ACK;
             A端：ACK;  双方 都有直接的序列码，而ACK针对对方序列码+1
+      DNS
+如果UDP包超过IP的MTU就需要使用TCP协议传输。
