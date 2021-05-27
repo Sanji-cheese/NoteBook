@@ -1,4 +1,4 @@
-cn.vuejs.org   router.vuejs.org/zh  cli.vuejs.org  vuex.vuejs.org/zh
+cn.vuejs.org   router.vuejs.org/zh  cli.vuejs.org  vuex.vuejs.org/zh    koa.bootcss.com/
 1  安装vue/cli  cnpm i -g @vue/cli@3.0.1
 2  创建一个vue项目  vue create ***
     vue 语法
@@ -10,3 +10,6 @@ cn.vuejs.org   router.vuejs.org/zh  cli.vuejs.org  vuex.vuejs.org/zh
   router： 渲染index.html下的<router-view>、 <router-link to>路由链接
     koa
   npm i -g koa-generator、 koa2 -e ***  (-e：使用ejs模板启动)、
+    mongodb
+   www.runoob.com/  OSX系统使用brew安装
+    
