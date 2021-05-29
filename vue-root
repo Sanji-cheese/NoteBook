@@ -11,5 +11,10 @@ cn.vuejs.org   router.vuejs.org/zh  cli.vuejs.org  vuex.vuejs.org/zh    koa.boot
     koa
   npm i -g koa-generator、 koa2 -e ***  (-e：使用ejs模板启动)、
     mongodb
-   www.runoob.com/  OSX系统使用brew安装
-    
+  www.runoob.com/  OSX系统使用brew安装、robomongo.org/download 可视化工具RoBo 3T、 mongoose安装 npm i mongoose 、mongoose.shujuwajue.com/
+    redis
+ runoob.com  OSX系统使用brew安装 、redis-server 启动、npm i koa-generic-session koa-redis 中间件、redis-cli 进入redis客户端
+    Nuxt.js   
+ vue init nuxt-community/koa-template
+ (vue2 、Vue Router、Vuex、Vue Server Renderer、 vue-meta)  npm install backpack-core eslint-loader eslint-plugin-html(版本升级)
+ 非常适合SSR工作,SSR在服务端下发编译好的内容和异步获取的数据，在浏览器端不会发生闪烁，下发的数据用以浏览器端虚拟编译与SSR的内容对比
