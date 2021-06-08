@@ -2,3 +2,6 @@
   JSONP:  利用script标签，支持GET方法；jQuery可以在url加callback=?，服务端拿request.jquery.callback，进行回调执行js代码；
   CORS：官方方式，在服务端加上响应头，response.setHeader，Access-Control-Allow-Origin设置为*or某个域，Access-Control-Allow-一族
 2 SEO不友好：源代码中没有内容，爬虫就爬不到
+3 josn-server 实现一个REST api服务器
+4 axios
+5 Promise链式 可以成功失败交错
