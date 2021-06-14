@@ -1,3 +1,5 @@
   SPA 只有一个html
 1  路由分前端和后端；前端路由：path->component，后端路由：path->function
 2  前端路由依靠浏览器history,分H5推出的和hash值，前者好看兼容性存在问题，后者兼容性好，但有#符号
+  纯函数
+3  用push unshift往数组里添东西，数组的地址并没有改变，不会触发react的render
