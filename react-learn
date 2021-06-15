@@ -6,4 +6,7 @@
 4  reducer是一个纯函数处理器
 5  setState同步方法引起react更新是为异步操作，其第二可选参数callback在render之后调用；
     如果新状态依赖原状态state，则可以使用函数式setState（（state，props）=>{} ）
-  
+6  lazyLoad  懒加载路由组件
+  lazy() 并利用Suspense包裹路由组件
+7  函数式组件 16.8 hooks
+    原函数式组件没有this和state，
