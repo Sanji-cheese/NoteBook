@@ -4,3 +4,6 @@
   纯函数：同样输入必须产生同样输出  不改变参数数据，不产生任何副作用（不做不靠谱的事）
 3  用push unshift往数组里添东西，数组的地址并没有改变，不会触发react的render
 4  reducer是一个纯函数处理器
+5  setState同步方法引起react更新是为异步操作，其第二可选参数callback在render之后调用；
+    如果新状态依赖原状态state，则可以使用函数式setState（（state，props）=>{} ）
+  
