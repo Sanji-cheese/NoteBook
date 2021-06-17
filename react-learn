@@ -18,3 +18,5 @@
   类似于Vue的slot
 11 npm i  -g serve
   到指定path， serve build， 可以运行webpack打包后的build项目（build文件夹为根路径 ）
+12  getDerivedStateFromError
+   捕获子组件生命周期产生（render）的错误，return hasError：error；之后componentDidCatch处理错误
