@@ -10,3 +10,5 @@
   lazy() 并利用Suspense包裹路由组件
 7  函数式组件 16.8 hooks
     原函数式组件没有this和state，
+8  setState()
+  执行setState()，会自动调用一次render
