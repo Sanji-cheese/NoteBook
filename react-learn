@@ -16,3 +16,5 @@
   如果新数据的地址比旧数据的未改变，则shouldComponentUpdate返回false
 10  this.props.render(pram)
   类似于Vue的slot
+11 npm i  -g serve
+  到指定path， serve build， 可以运行webpack打包后的build项目（build文件夹为根路径 ）
