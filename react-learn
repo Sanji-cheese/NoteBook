@@ -14,3 +14,5 @@
   执行setState()，会自动调用一次render
 9  PureComponent 
   如果新数据的地址比旧数据的未改变，则shouldComponentUpdate返回false
+10  this.props.render(pram)
+  类似于Vue的slot
