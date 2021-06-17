@@ -12,3 +12,5 @@
     原函数式组件没有this和state，
 8  setState()
   执行setState()，会自动调用一次render
+9  PureComponent 
+  如果新数据的地址比旧数据的未改变，则shouldComponentUpdate返回false
