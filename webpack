@@ -4,3 +4,4 @@
   可以在js文件中引入css png->引入 css-loader，loader为倒序加载
 3  plugin
   监听一些事件，改变打包文件的输出
+4 tree-shaking
