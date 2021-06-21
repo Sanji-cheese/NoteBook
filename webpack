@@ -5,3 +5,5 @@
 3  plugin
   监听一些事件，改变打包文件的输出
 4 tree-shaking
+5 babel
+  npm i -D @babel/core @babel/preset-env babel-loader core-js
